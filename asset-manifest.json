@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/.github.io/demoReactHook/static/css/main.efad65e3.chunk.css",
-    "main.js": "/.github.io/demoReactHook/static/js/main.ef9233d6.chunk.js",
-    "main.js.map": "/.github.io/demoReactHook/static/js/main.ef9233d6.chunk.js.map",
-    "runtime-main.js": "/.github.io/demoReactHook/static/js/runtime-main.11548485.js",
-    "runtime-main.js.map": "/.github.io/demoReactHook/static/js/runtime-main.11548485.js.map",
-    "static/js/2.03c7c951.chunk.js": "/.github.io/demoReactHook/static/js/2.03c7c951.chunk.js",
-    "static/js/2.03c7c951.chunk.js.map": "/.github.io/demoReactHook/static/js/2.03c7c951.chunk.js.map",
-    "index.html": "/.github.io/demoReactHook/index.html",
-    "static/css/main.efad65e3.chunk.css.map": "/.github.io/demoReactHook/static/css/main.efad65e3.chunk.css.map",
-    "static/js/2.03c7c951.chunk.js.LICENSE.txt": "/.github.io/demoReactHook/static/js/2.03c7c951.chunk.js.LICENSE.txt"
+    "main.css": "/demoReactHook/static/css/main.efad65e3.chunk.css",
+    "main.js": "/demoReactHook/static/js/main.ef9233d6.chunk.js",
+    "main.js.map": "/demoReactHook/static/js/main.ef9233d6.chunk.js.map",
+    "runtime-main.js": "/demoReactHook/static/js/runtime-main.e09fb476.js",
+    "runtime-main.js.map": "/demoReactHook/static/js/runtime-main.e09fb476.js.map",
+    "static/js/2.03c7c951.chunk.js": "/demoReactHook/static/js/2.03c7c951.chunk.js",
+    "static/js/2.03c7c951.chunk.js.map": "/demoReactHook/static/js/2.03c7c951.chunk.js.map",
+    "index.html": "/demoReactHook/index.html",
+    "static/css/main.efad65e3.chunk.css.map": "/demoReactHook/static/css/main.efad65e3.chunk.css.map",
+    "static/js/2.03c7c951.chunk.js.LICENSE.txt": "/demoReactHook/static/js/2.03c7c951.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.11548485.js",
+    "static/js/runtime-main.e09fb476.js",
     "static/js/2.03c7c951.chunk.js",
     "static/css/main.efad65e3.chunk.css",
     "static/js/main.ef9233d6.chunk.js"
