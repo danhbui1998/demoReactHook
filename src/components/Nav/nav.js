@@ -9,7 +9,7 @@ const Nav = () => {
     return (
             <ul className="navList">
                 <NavLink to="/" exact>
-                    <li  activeclassname="active">Home</li>
+                    <li activeclassname="active">Home</li>
                 </NavLink>
                 <NavLink to="/fetchApi">
                     <li  activeclassname="active">Covid VN</li>              
@@ -19,6 +19,9 @@ const Nav = () => {
                 </NavLink>
                 <NavLink to="/countdown">
                     <li  activeclassname="active">Countdown</li>                 
+                </NavLink>
+                <NavLink to="/blog">
+                    <li  activeclassname="active">Blog</li>     
                 </NavLink>
                 <NavLink to="/more">
                     <li  activeclassname="active">More</li>     

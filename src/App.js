@@ -3,6 +3,8 @@ import './App.css';
 import Todo from './components/Todo/Todo';
 import FetchAPI from './components/FetchAPI/FetchAPI'
 import Countdown from './components/coundown/Coundown'
+import Blog from './components/Blog/Blog'
+import DetailBlog from './components/Blog/DetailBlog'
 
 import Header from './components/Header/Header';
 
@@ -32,6 +34,12 @@ function App() {
                   </Route>
                   <Route path="/countdown">
                     <Countdown/>
+                  </Route>
+                  <Route path="/blog" exact>
+                    <Blog/>
+                  </Route>
+                  <Route path="/blog/:id">
+                    <DetailBlog/>
                   </Route>
                 </Switch>
             </div>

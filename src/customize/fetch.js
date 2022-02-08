@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios';
 import moment from 'moment';
 
-const useFetch = (url) => {
+const useFetch = (url, isCovidData) => {
 
     const [data, setData] = useState([])
     const [isLoading, setIsLoading] = useState(true)
@@ -16,7 +16,7 @@ const useFetch = (url) => {
                 let res = await axios.get(url)
 
                 let data = res && res.data ? res.data : [];
-                if (data && data.length > 0) {
+                if (data && data.length > 0 && isCovidData === true) {
                     data.map(item => {
                         item.Date = moment(item.Date).format('DD/MM/YYYY')
 
@@ -40,7 +40,7 @@ const useFetch = (url) => {
 
 
 
-    }, [url])
+    }, [url, isCovidData])
 
     return { data, isLoading, isError }
 
