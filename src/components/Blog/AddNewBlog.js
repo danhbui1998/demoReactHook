@@ -7,6 +7,14 @@ const AddNewBlog = ()=>{
     const [content,setContent] = useState('');
 
     const handleSumbitBtn = ()=>{
+        if(!title){
+            alert('Please enter a title')
+            return
+        }
+        if(!content){
+            alert('Please enter a content')
+            return
+        }
         alert('title: ' + title + ' content: ' + content)
     }
 
