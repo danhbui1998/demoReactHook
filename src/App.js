@@ -5,6 +5,7 @@ import FetchAPI from './components/FetchAPI/FetchAPI'
 import Countdown from './components/coundown/Coundown'
 import Blog from './components/Blog/Blog'
 import DetailBlog from './components/Blog/DetailBlog'
+import AddNewBlog from './components/Blog/AddNewBlog';
 
 import Header from './components/Header/Header';
 
@@ -38,8 +39,11 @@ function App() {
                   <Route path="/blog" exact>
                     <Blog/>
                   </Route>
-                  <Route path="/blog/:id">
+                  <Route path="/blog/:id" exact>
                     <DetailBlog/>
+                  </Route>
+                  <Route path="/add-new-blog" exact>
+                    <AddNewBlog/>
                   </Route>
                 </Switch>
             </div>

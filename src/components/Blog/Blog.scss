@@ -18,3 +18,27 @@
         }
     }
 }
+
+.btn-add-new-blog {
+    cursor: pointer;
+    margin: 10px;
+}
+
+.add-new-blog {
+    margin: 10px 0;
+    .add-new-title {
+        margin-bottom: 10px;
+        display: inline-block;
+        font-weight: 600;
+    }
+    .input-data {
+        padding: 5px 0;
+    }
+    .input-data label {
+        min-width: 80px;
+        display: inline-block;
+    }
+    .input-data input {
+        outline: none;
+    }
+}
