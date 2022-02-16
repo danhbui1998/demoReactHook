@@ -6,6 +6,7 @@ import Countdown from './components/coundown/Coundown'
 import Blog from './components/Blog/Blog'
 import DetailBlog from './components/Blog/DetailBlog'
 import AddNewBlog from './components/Blog/AddNewBlog';
+import NotFound from './components/404NotFound/404NotFound'
 
 import Header from './components/Header/Header';
 
@@ -23,17 +24,16 @@ function App() {
           <div className="App">
             <Header/>
             <div className="container" style={{marginTop:'30px'}}>
-                <h1>Học ReactJS với Danh</h1>
                 <Switch>
                   <Route path="/" exact>
                   </Route>
-                  <Route path="/todo">
+                  <Route path="/todo" exact>
                     <Todo/>
                   </Route>
-                  <Route path="/fetchApi">
+                  <Route path="/fetchApi" exact>
                     <FetchAPI/>
                   </Route>
-                  <Route path="/countdown">
+                  <Route path="/countdown" exact>
                     <Countdown/>
                   </Route>
                   <Route path="/blog" exact>
@@ -44,6 +44,9 @@ function App() {
                   </Route>
                   <Route path="/add-new-blog" exact>
                     <AddNewBlog/>
+                  </Route>
+                  <Route path="*">
+                    <NotFound/>
                   </Route>
                 </Switch>
             </div>

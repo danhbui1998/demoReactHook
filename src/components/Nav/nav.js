@@ -23,9 +23,7 @@ const Nav = () => {
                 <NavLink to="/blog">
                     <li  activeclassname="active">Blog</li>     
                 </NavLink>
-                <NavLink to="/more">
-                    <li  activeclassname="active">More</li>     
-                </NavLink>
+                
             </ul>
         
     )
